@@ -3,7 +3,7 @@
 
 ## 🎯 Objetivo
 
-Este projeto é uma iniciativa para disseminar o uso de dados públicos e análise de dados em R, voltada especialmente para iniciantes. Como exemplo prático, são utilizados dados sobre a incidência de malária no Brasil nos anos de 2008, 2015 e 2024.
+Este projeto é uma iniciativa para incentivar o uso de dados públicos e análise de dados em R, voltada especialmente para iniciantes. Como exemplo prático, são utilizados dados sobre a incidência de malária no Brasil nos anos de 2008, 2015 e 2024.
 
 ---
 
@@ -11,7 +11,7 @@ Este projeto é uma iniciativa para disseminar o uso de dados públicos e análi
 
 A malária é uma doença infectocontagiosa, causada por parasitas do gênero Plasmodium e transmitida por mosquitos do gênero Anopheles.
 
-🔎 Apesar dos avanços no diagnóstico e tratamento, a malária ainda é considerada um importante problema de saúde pública em países de clima tropical, devido às condições favoráveis à proliferação do mosquito transmissor e aos desafios na manutenção de políticas de controle eficazes.
+🔎 Apesar dos avanços no diagnóstico, tratamento e prevenção, a malária ainda é considerada um importante problema de saúde pública em países de clima tropical, devido às condições favoráveis à proliferação do mosquito transmissor e aos desafios na manutenção de políticas de controle eficazes.
 
 - 🧪 **Desafio científico**: o mosquito vetor adapta-se facilmente aos medicamentos utilizados.
 - 🌎 **Desafio geográfico**: alta incidência em regiões tropicais, onde o clima favorece a proliferação do vetor e a população frequentemente enfrenta condições de vulnerabilidade socioeconômica.
@@ -50,12 +50,12 @@ library(readxl)
 
 ## 🔄 Fluxo de Trabalho
 
-- **Importação dos dados epidemiológicos (malária) e demográficos (população).**  
+- **Importação dos dados de casos malária e população.**  
 - **Tratamento, junção e cálculo da taxa de incidência (casos por 1.000 habitantes).**  
 - **Integração com dados espaciais oficiais (geobr).**
-- **Categorização de taxas.**
-- **Geração de mapas para os anos analisados.**
-- **Exportação em alta resolução.**
+- **Categorização das taxas.**
+- **Geração dos mapas para os anos analisados.**
+- **Exportação das figuras em alta resolução.**
 
 ---
 
@@ -67,9 +67,9 @@ A Figura gerada é um painel de mapas como o exemplo abaixo:
 
 ---
 
-## 🔎 Interpretação dos Resultados
+## 🔎 Interpretação
 
-🗺 Os resultados indicam uma redução na incidência de malária no Brasil entre 2008 e 2024. No entanto, a malária permanece concentrada em municípios da região Amazônica, exigindo ações contínuas de controle, vigilância epidemiológica e investimentos estruturantes em saúde pública.
+🗺 A fugura mostra que houve uma redução na incidência de malária no Brasil entre 2008 e 2024. No entanto, a malária permanece concentrada em municípios da região Amazônica, exigindo ações contínuas de controle, vigilância epidemiológica e investimentos estruturantes em saúde pública.
 
 ---
 
