@@ -1,5 +1,6 @@
 # ---------------------------------------------------------
 # PROJETO: Incidência de Malária no Brasil - Visualização com R
+# Valéria Andrade Silva
 # ---------------------------------------------------------
 
 # Definindo o diretório de trabalho (ajuste conforme seu ambiente)
