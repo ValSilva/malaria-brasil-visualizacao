@@ -25,7 +25,17 @@ A malária é uma doença infectocontagiosa, causada por parasitas do gênero Pl
 - 👥 **População**: [Estimativas Populacionais - IBGE/SIDRA](https://sidra.ibge.gov.br/pesquisa/estimapop/tabelas)
 
 ---
+📐 Cálculo da Taxa de Incidência
 
+Para comparar a situação epidemiológica entre municípios de diferentes tamanhos populacionais, foi calculada a taxa de incidência de malária, expressa como o número de casos por 1.000 habitantes.
+O uso da taxa permite uma comparação proporcional entre municípios, independentemente da população total. Dessa forma, evita-se distorções que ocorreriam ao comparar apenas o número absoluto de casos.
+A fórmula utilizada foi:
+
+**Taxa de Incidência = (Casos Observados / População) × 1000**
+
+Esse indicador padronizado facilita a identificação de áreas com maior risco de transmissão e permite análises comparáveis entre diferentes regiões e anos.
+
+---
 ## 📦 Pacotes Utilizados
 
 ```r
@@ -51,7 +61,7 @@ library(readxl)
 
 ## ✨ Visualização Final
 
-O resultado é um painel de mapas como o exemplo abaixo:
+A Figura gerada é um painel de mapas como o exemplo abaixo:
 
 ![Exemplo de visualização](malaria_casos.png)
 
