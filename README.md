@@ -31,7 +31,7 @@ Para comparar a situação epidemiológica entre municípios de diferentes taman
 O uso da taxa permite uma comparação proporcional entre municípios, independentemente da população total. Dessa forma, evita-se distorções que ocorreriam ao comparar apenas o número absoluto de casos.
 A fórmula utilizada foi:
 
-![Fórmula da Taxa de Incidência](formula_taxa_incidencia.png)
+![Fórmula da Taxa de Incidência](formula_taxa_incidencia01.png)
 
 Esse indicador padronizado facilita a identificação de áreas com maior risco de transmissão e permite análises comparáveis entre diferentes regiões e anos.
 
