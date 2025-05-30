@@ -1,22 +1,22 @@
 
-# 🦟 Visualização da Incidência de Malária no Brasil (2008, 2015 e 2024)
-
-> 🚀 **Projeto didático de análise e visualização de dados públicos em R**
+# 🦟 Incidência de Malária no Brasil
 
 ## 🎯 Objetivo
 
-Este projeto visa **disseminar conhecimento em análise de dados e visualização geoespacial com R**, utilizando como estudo de caso a incidência de malária no Brasil nos anos de 2008, 2015 e 2024. 
+Este projeto é uma iniciativa de disseminação do uso de dados públicos e análise em R, voltada especialmente para quem está iniciando na área.
 
-🔬 Público-alvo: iniciantes em ciência de dados, saúde pública e análise territorial.
+CoPara análise é utilizada a incidência de malária no Brasil nos anos de 2008, 2015 e 2024.
 
 ---
 
 ## 🧬 Sobre a Malária
 
-A malária é uma doença infecciosa grave, causada por parasitas do gênero *Plasmodium* e transmitida por mosquitos do gênero *Anopheles*. Representa um importante desafio de saúde pública:
+A malária é uma doença infectocontagiosa, causada por parasitas do gênero Plasmodium e transmitida por mosquitos do gênero Anopheles.
 
-- 🧪 **Desafio científico**: o mosquito vetor adapta-se facilmente a diversos ambientes.
-- 🌎 **Desafio geográfico**: alta incidência em regiões tropicais, com clima propício à proliferação.
+🔎 Apesar dos avanços no diagnóstico e tratamento, a malária ainda é considerada um importante problema de saúde pública em países de clima tropical, devido às condições favoráveis à proliferação do mosquito transmissor e aos desafios na manutenção de políticas de controle eficazes.
+
+- 🧪 **Desafio científico**: o mosquito vetor adapta-se facilmente aos medicamentos utilizados.
+- 🌎 **Desafio geográfico**: alta incidência em regiões tropicais, onde o clima favorece a proliferação do vetor e a população frequentemente enfrenta condições de vulnerabilidade socioeconômica.
 - 🏛 **Desafio político**: políticas de combate muitas vezes são descontinuadas, favorecendo a reincidência cíclica.
 
 ---
@@ -42,44 +42,32 @@ library(readxl)
 
 ## 🔄 Fluxo de Trabalho
 
-### 📥 Importação e Tratamento de Dados
+- **Importação dos dados epidemiológicos (malária) e demográficos (população).**  
+- **Tratamento, junção e cálculo da taxa de incidência (casos por 1.000 habitantes).**  
+- **Integração com dados espaciais oficiais (geobr).**
+- **Categorização de taxas.**
+- **Geração de mapas para os anos analisados.**
+- **Exportação em alta resolução.**
+- 
+---
 
-- **Casos de Malária**  
-- **População por Município**  
-- **Junção e Cálculo de Taxa de Incidência**
+## ✨ Visualização Final
 
-### 🌐 Integração Espacial
+O resultado é um painel de mapas como o exemplo abaixo:
 
-- Carregamento da geometria dos municípios com o pacote `geobr`
-- União das bases populacionais e epidemiológicas com as geometrias territoriais
-
-### 🎨 Visualização Geoespacial
-
-Os mapas apresentam a **taxa de incidência de casos por 1.000 habitantes**, destacando padrões temporais e territoriais.
-
-```r
-# Exemplo simplificado de visualização (vide código completo no script)
-ggplot(dados_geo) +
-  geom_sf(aes(fill = cat_taxa), color = "black", size = 0.02) +
-  scale_fill_manual(values = cores_cat_taxa) +
-  facet_wrap(~ano, ncol = 3)
-```
+![Exemplo de visualização](malaria_casos.png)
 
 ---
 
 ## 🔎 Interpretação dos Resultados
 
-🗺 Os mapas mostram **redução significativa de municípios com alta incidência entre 2008 e 2024**, porém persistem áreas críticas na Região Norte, indicando a importância de políticas públicas sustentadas e contínuas.
+🗺 Os resultados indicam uma redução na incidência de malária no Brasil entre 2008 e 2024. No entanto, a malária permanece concentrada em municípios da região Amazônica, exigindo ações contínuas de controle, vigilância epidemiológica e investimentos estruturantes em saúde pública.
 
 ---
 
-## 📝 Licença
+## ✍️ Autoria
 
-📄 Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-## 🤝 Contribuições
-
-Contribuições são muito bem-vindas!  
-Sinta-se à vontade para abrir **issues** ou enviar **pull requests** 🔧.
+Projeto por **Valéria Andrade Silva**  
+Doutoranda em Economia – Cedeplar/UFMG  
+💡 [LinkedIn](www.linkedin.com/in/valéria-andrade-silva)  
+📧 valeria.andrade81@hotmail.com
