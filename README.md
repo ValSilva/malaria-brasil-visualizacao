@@ -3,9 +3,7 @@
 
 ## 🎯 Objetivo
 
-Este projeto é uma iniciativa de disseminação do uso de dados públicos e análise em R, voltada especialmente para quem está iniciando na área.
-
-CoPara análise é utilizada a incidência de malária no Brasil nos anos de 2008, 2015 e 2024.
+Este projeto é uma iniciativa para disseminar o uso de dados públicos e a aplicação de técnicas de análise em R, voltada especialmente para iniciantes Como exemplo prático, são utilizados dados sobre a incidência de malária no Brasil nos anos de 2008, 2015 e 2024.
 
 ---
 
