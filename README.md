@@ -56,7 +56,7 @@ library(readxl)
 - **Categorização de taxas.**
 - **Geração de mapas para os anos analisados.**
 - **Exportação em alta resolução.**
-- 
+
 ---
 
 ## ✨ Visualização Final
