@@ -69,7 +69,7 @@ A Figura gerada é um painel de mapas como o exemplo abaixo:
 
 ## 🔎 Interpretação
 
-🗺 A fugura mostra que houve uma redução na incidência de malária no Brasil entre 2008 e 2024. No entanto, a malária permanece concentrada em municípios da região Amazônica, exigindo ações contínuas de controle, vigilância epidemiológica e investimentos estruturantes em saúde pública.
+🗺 A figura mostra que houve uma redução na incidência de malária no Brasil entre 2008 e 2024. No entanto, a malária permanece concentrada em municípios da região Amazônica, exigindo ações contínuas de controle, vigilância epidemiológica e investimentos estruturantes em saúde pública.
 
 ---
 
